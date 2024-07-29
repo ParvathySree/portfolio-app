@@ -3,8 +3,6 @@ import { Box } from '@mui/system';
 import React, { useEffect, useState } from 'react';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
-import TimeLine from '../TimeLine/TimeLine';
-import Timeline from '../TimeLine/TimeLine';
 import './About.css';
 import Intro from './Intro/Intro';
 import IntroImg from './IntroImg/IntroImg';
@@ -46,54 +44,11 @@ const About = () => {
               <IntroImg />
             </Grid>
           </Grid>
-
-          {/* Second Row - Single Column */}
-          <Grid container item xs={12} className="second-row">
-            <Grid 
-              item 
-              xs={12}
-              sx={{ textAlign: 'center' }}
-              className="new-content"
-            >
-              <Skills/>
-            </Grid>
-          </Grid>
-          <Grid container item xs={12} className="third-row">
-            <Grid 
-              item 
-              xs={12}
-              sx={{ textAlign: 'left' }}
-              className="new-content"
-            >
-              <Projects/>
-            </Grid>
-          </Grid>
-
-          {/* <Grid container item xs={12} spacing={2} className="third-row">
-            <Grid 
-              item 
-              xs={12} 
-              md={6}
-              sx={{ textAlign: 'center' }}
-              className="intro-content"
-            >
-              <TimeLine/>
-            </Grid>
-            <Grid 
-              item 
-              xs={12} 
-              md={6}
-              sx={{
-                textAlign: 'center',
-                // display: { xs: 'none', md: 'flex' } 
-              }}
-              className="intro-image"
-            >
-              <Projects/>
-            </Grid>
+          {/* <Grid item xs={12}>
+            <Box className="single-row-content" sx={{textAlign:"center"}}>
+               <Skills /> 
+            </Box>
           </Grid> */}
-
-
         </Grid>
       </Box>
     </>

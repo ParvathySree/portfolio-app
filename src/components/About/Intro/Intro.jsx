@@ -12,7 +12,7 @@ const Intro = () => {
       <Box className="into-txt-box">
       <Typography className='name text'>Hello<span className='role'>.</span></Typography>
       <Typography className='name text'>I'm Sreeparvathy</Typography>
-      <Typography className='role text'>Frontend Developer</Typography>
+      <Typography className='role text'>Full Stack Developer</Typography>
       <Box className="intro-btns">
       <a href={resumePdf} className="button" target="_blank" >View Resume</a>
       </Box>

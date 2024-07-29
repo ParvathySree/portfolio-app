@@ -52,8 +52,70 @@ export const projects = [
         name: "NOTES APP",
         githubUrl:"https://github.com/ParvathySree/notes-app",
         webUrl:"https://notes-app-qjc5.vercel.app/",
-        skills: "ReactJS,NodeJS,PostgreSQL,MaterialUI",
+        skills: "ReactJS, ExpressJS, PostgreSQL, MaterialUI",
         img:"./src/utils/images/notes.svg"
     },
+    {
+        id :2,
+        name: "WEATHER APP",
+        githubUrl:"",
+        webUrl:"https://weather-app-5fe73.web.app/",
+        skills: "ReactJS, Open Weather Map API",
+        img:"./src/utils/images/weather.svg"
+    },
+    {
+        id :3,
+        name: "GROCERY DELIVERY APP",
+        githubUrl:"https://github.com/ParvathySree/delivery-app",
+        webUrl:"",
+        skills: "ReactJS, ExpressJS, Redux Tool Kit, MongoDB, Material UI",
+        img:"./src/utils/images/delivery.svg"
+    },
+    {
+        id :4,
+        name: "LINK SHORTNER",
+        githubUrl:"https://github.com/ParvathySree/Link-Shortner-App",
+        webUrl:"",
+        skills: "ReactJS, ExpressJS, MongoDB, Material UI",
+        img:"./src/utils/images/link.svg"
+    },
+ 
+    {
+        id :5,
+        name: "TIC TAC TOE",
+        githubUrl:"https://github.com/ParvathySree/TicTacToe-React",
+        webUrl:"https://parvathysree.github.io/TicTacToe-React/",
+        skills: "ReactJS",
+        img:"./src/utils/images/tictactoe.svg"
+    },
+ 
 
+]
+
+export const socials = [
+    {
+        id:1,
+        icon:"./src/utils/images/github.png",
+        link:"https://github.com/ParvathySree"
+    },
+    {
+        id:2,
+        icon:"./src/utils/images/linkedin.png",
+        link:"https://www.linkedin.com/in/sreeparvathypl/"
+    },
+    {
+        id:1,
+        icon:"./src/utils/images/instagram.png",
+        link:"https://www.instagram.com/___parvathy/"
+    },
+    {
+        id:1,
+        icon:"./src/utils/images/medium.png",
+        link:"https://medium.com/@plsreeparvathy"
+    },
+    {
+        id:1,
+        icon:"./src/utils/images/email.png",
+        link:"mailto:plsreeparvathy@gmail.com"
+    },
 ]

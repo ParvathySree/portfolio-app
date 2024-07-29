@@ -1,6 +1,9 @@
 .content-box{
     position: absolute;
-    top: 10%;
+    top: 50%;
+    transform: translatey(-50%);
+    justify-content: center;
+    
 }
 
 .about-box{
@@ -13,7 +16,11 @@
         flex-direction: column !important;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        
+    }
+
+    .first-row{
+      gap: 50px !important;
     }
 }
 

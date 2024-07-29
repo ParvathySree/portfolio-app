@@ -1,5 +1,7 @@
 .projects-con{
     margin: 20px;
+    justify-content: center !important;
+    gap: 50px !important;
 }
 
 .projects-title{

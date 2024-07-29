@@ -17,11 +17,14 @@ import { Link, useLocation } from 'react-router-dom';
 const Header = () => {
 
     const [anchorElNav, setAnchorElNav] = useState(null);
+    const location = useLocation(); 
   
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
+
+  const isActive = (path) => location.pathname === path;
 
 
   const handleCloseNavMenu = () => {
@@ -84,13 +87,22 @@ const Header = () => {
               }}
             >
               
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleCloseNavMenu}
+                component ={Link}
+                sx={{ color: isActive('/') && '#e74c3b' }}
+                to='/'>
                   <Typography >About</Typography>
                 </MenuItem>
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleCloseNavMenu}
+                sx={{ color: isActive('/projects') && '#e74c3b' }}
+                 component ={Link}
+                 to='/projects'>
                   <Typography >Projects</Typography>
                 </MenuItem>
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem onClick={handleCloseNavMenu}
+                component ={Link}
+                sx={{ color: isActive('/contact') && '#e74c3b' }}
+                to='/contact'>
                   <Typography >Contact</Typography>
                 </MenuItem>
       
@@ -122,19 +134,23 @@ const Header = () => {
                 onClick={handleCloseNavMenu}
                 component ={Link}
                 to='/'
-                sx={{ my: 2, color: '#000', display: 'block',fontWeight:700, textTransform: 'none'}}
+                sx={{ my: 2, display: 'block',fontWeight:700, textTransform: 'none',color: isActive('/') ? '#e74c3b' : '#000' }}
               >
                 About
               </Button>
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#000', display: 'block',fontWeight:700, textTransform: 'none' }}
+                component ={Link}
+                to='/projects'
+                sx={{ my: 2, display: 'block',fontWeight:700, textTransform: 'none',color: isActive('/projects') ? '#e74c3b' : '#000' }}
               >
                 Projects
               </Button>
               <Button
+              component ={Link}
+              to='/contact'
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#000', display: 'block',fontWeight:700, textTransform: 'none' }}
+                sx={{ my: 2,  display: 'block',fontWeight:700, textTransform: 'none',color: isActive('/contact') ? '#e74c3b' : '#000'  }}
               >
                 Contact
               </Button>

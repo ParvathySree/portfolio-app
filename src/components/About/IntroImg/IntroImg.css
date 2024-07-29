@@ -8,3 +8,8 @@
   .intro-image-con{
     justify-content:center !important;
   }
+
+  .intro-texts{
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+  }
