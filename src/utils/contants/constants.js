@@ -53,7 +53,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/notes-app",
         webUrl:"https://notes-app-qjc5.vercel.app/",
         skills: "ReactJS, ExpressJS, PostgreSQL, MaterialUI",
-        img:"./src/utils/images/notes.svg"
+        img:"../../../utils/images/notes.svg"
     },
     {
         id :2,
@@ -61,7 +61,7 @@ export const projects = [
         githubUrl:"",
         webUrl:"https://weather-app-5fe73.web.app/",
         skills: "ReactJS, Open Weather Map API",
-        img:"./src/utils/images/weather.svg"
+        img:"../../../utils/images/weather.svg"
     },
     {
         id :3,
@@ -69,7 +69,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/delivery-app",
         webUrl:"",
         skills: "ReactJS, ExpressJS, Redux Tool Kit, MongoDB, Material UI",
-        img:"./src/utils/images/delivery.svg"
+        img:"../../../utils/images/delivery.svg"
     },
     {
         id :4,
@@ -77,7 +77,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/Link-Shortner-App",
         webUrl:"",
         skills: "ReactJS, ExpressJS, MongoDB, Material UI",
-        img:"./src/utils/images/link.svg"
+        img:"../../../utils/images/link.svg"
     },
  
     {
@@ -86,7 +86,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/TicTacToe-React",
         webUrl:"https://parvathysree.github.io/TicTacToe-React/",
         skills: "ReactJS",
-        img:"./src/utils/images/tictactoe.svg"
+        img:"../../../utils/images/tictactoe.svg"
     },
  
 
@@ -95,27 +95,27 @@ export const projects = [
 export const socials = [
     {
         id:1,
-        icon:"./src/utils/images/github.png",
+        icon:"../../utils/images/github.png",
         link:"https://github.com/ParvathySree"
     },
     {
         id:2,
-        icon:"./src/utils/images/linkedin.png",
+        icon:"../../utils/images/linkedin.png",
         link:"https://www.linkedin.com/in/sreeparvathypl/"
     },
     {
         id:1,
-        icon:"./src/utils/images/instagram.png",
+        icon:"../../utils/images/instagram.png",
         link:"https://www.instagram.com/___parvathy/"
     },
     {
         id:1,
-        icon:"./src/utils/images/medium.png",
+        icon:"../../utils/images/medium.png",
         link:"https://medium.com/@plsreeparvathy"
     },
     {
         id:1,
-        icon:"./src/utils/images/email.png",
+        icon:"../../utils/images/email.png",
         link:"mailto:plsreeparvathy@gmail.com"
     },
 ]
