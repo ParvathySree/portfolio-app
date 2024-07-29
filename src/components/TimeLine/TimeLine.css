@@ -1,0 +1,22 @@
+.timeline-role{
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #E74C3C;
+  
+
+}
+
+.timeline-company{
+    font-size: 12px !important;
+    color:  #2C3E50 ;
+}
+
+.timeline-period{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    color: #34495E ;
+
+}
+.timeline-period,.timeline-role,.timeline-period{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}

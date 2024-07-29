@@ -1,0 +1,32 @@
+.skill-paper{
+    height: 120px !important;
+    width: 120px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: none !important;
+}
+
+
+.skill-img-con{
+    height: 50px;
+    width: 50px;
+}
+
+.skill-img-con img{
+    width: 100%;
+}
+
+.skill-name{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+@media (max-width:500px){
+    .skill-paper{
+        height: 100px !important;
+        width: 100px !important;
+    }
+}

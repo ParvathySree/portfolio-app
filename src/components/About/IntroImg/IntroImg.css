@@ -1,0 +1,10 @@
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+
+    
+  .intro-image-con{
+    justify-content:center !important;
+  }
