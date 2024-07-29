@@ -2,6 +2,7 @@ import { Button, Paper } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import './ProjectCard.css'
+import img from '../../../utils/images/delivery.svg'
 
 const ProjectCard = (props) => {
   const { name, githubUrl, webUrl, img, skills } = props.projectDetail
@@ -12,7 +13,7 @@ const ProjectCard = (props) => {
           {name}
         </Box>
         <Box className='project-img-con'>
-          <img src={img} alt="Project" />
+          <img src="" alt="Project" />
         </Box>
         <Box className='project-skills-con'>{skills}</Box>
         <Box className="button-con">
