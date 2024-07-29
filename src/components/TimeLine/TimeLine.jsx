@@ -7,10 +7,15 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import React from 'react'
 import './TimeLine.css'
 import { Typography } from '@mui/material';
+import { Box } from '@mui/system';
 
 const TimeLine = () => {
   return (
-    <Timeline position="alternate">
+    <Box className='time-line-con'>
+      <Box className='timeline-title'>
+        EXPERIENCE
+        </Box>
+    <Timeline position="alternate" >
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot />
@@ -33,6 +38,8 @@ const TimeLine = () => {
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+      
+    </Box>
   )
 }
 

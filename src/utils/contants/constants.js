@@ -45,3 +45,15 @@ export const skillset = [
         image : "./src/utils/images/html.png"
     },
 ]
+
+export const projects = [
+    {
+        id :1,
+        name: "NOTES APP",
+        githubUrl:"https://github.com/ParvathySree/notes-app",
+        webUrl:"https://notes-app-qjc5.vercel.app/",
+        skills: "ReactJS,NodeJS,PostgreSQL,MaterialUI",
+        img:"./src/utils/images/notes.svg"
+    },
+
+]

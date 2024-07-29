@@ -20,3 +20,15 @@
 .timeline-period,.timeline-role,.timeline-period{
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
 }
+
+.time-line-con{
+    width: 100% !important;
+    /* background-color: #f9e6e4; */
+    margin: 50px;
+}
+
+.timeline-title{
+    font-size: 2rem !important;
+    color: #2c3e50;
+    font-weight: 700;
+}

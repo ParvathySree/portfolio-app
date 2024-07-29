@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useEffect, useState } from 'react';
+import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import TimeLine from '../TimeLine/TimeLine';
 import Timeline from '../TimeLine/TimeLine';
@@ -17,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <Box className="about-box">
+      <Box className={`about-box ${animate ? 'fade-in' : ''}`}>
         <Grid container  className='content-box'
         //  className={`content-box ${animate ? 'fade-in' : ''}`} 
          spacing={2}>
@@ -57,8 +58,18 @@ const About = () => {
               <Skills/>
             </Grid>
           </Grid>
+          <Grid container item xs={12} className="third-row">
+            <Grid 
+              item 
+              xs={12}
+              sx={{ textAlign: 'left' }}
+              className="new-content"
+            >
+              <Projects/>
+            </Grid>
+          </Grid>
 
-          <Grid container item xs={12} spacing={2} className="first-row">
+          {/* <Grid container item xs={12} spacing={2} className="third-row">
             <Grid 
               item 
               xs={12} 
@@ -78,9 +89,9 @@ const About = () => {
               }}
               className="intro-image"
             >
-              {/* <IntroImg /> */}
+              <Projects/>
             </Grid>
-          </Grid>
+          </Grid> */}
 
 
         </Grid>
