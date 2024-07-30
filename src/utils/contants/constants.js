@@ -90,17 +90,6 @@ export const projects = [
         skills: "ReactJS, ExpressJS, MongoDB, Material UI",
         img:linkImg
     },
- 
-    {
-        id :5,
-        name: "TIC TAC TOE",
-        githubUrl:"https://github.com/ParvathySree/TicTacToe-React",
-        webUrl:"https://parvathysree.github.io/TicTacToe-React/",
-        skills: "ReactJS",
-        img:ticTacToeImg
-    },
- 
-
 ]
 
 export const socials = [
