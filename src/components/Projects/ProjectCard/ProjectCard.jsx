@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
           {name}
         </Box>
         <Box className='project-img-con'>
-          <img src="" alt="Project" />
+          <img src={img} alt="Project" />
         </Box>
         <Box className='project-skills-con'>{skills}</Box>
         <Box className="button-con">

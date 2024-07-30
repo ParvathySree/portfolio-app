@@ -1,3 +1,14 @@
+import notesImg from '../images/notes.svg'
+import weatherImg from '../images/weather.svg';
+import deliveryImg from '../images/delivery.svg';
+import linkImg from '../images/link.svg';
+import ticTacToeImg from '../images/tictactoe.svg';
+import githubIcon from '../images/github.png'
+import linkedinIcon from '../images/linkedin.png'
+import instaIcon from '../images/instagram.png'
+import mediumIcon from '../images/medium.png'
+import emailIcon from '../images/email.png'
+
 export const skillset = [
     {
         id:1,
@@ -53,7 +64,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/notes-app",
         webUrl:"https://notes-app-qjc5.vercel.app/",
         skills: "ReactJS, ExpressJS, PostgreSQL, MaterialUI",
-        img:"../../../utils/images/notes.svg"
+        img: notesImg
     },
     {
         id :2,
@@ -61,7 +72,7 @@ export const projects = [
         githubUrl:"",
         webUrl:"https://weather-app-5fe73.web.app/",
         skills: "ReactJS, Open Weather Map API",
-        img:"../../../utils/images/weather.svg"
+        img:weatherImg
     },
     {
         id :3,
@@ -69,7 +80,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/delivery-app",
         webUrl:"",
         skills: "ReactJS, ExpressJS, Redux Tool Kit, MongoDB, Material UI",
-        img:"../../../utils/images/delivery.svg"
+        img:deliveryImg
     },
     {
         id :4,
@@ -77,7 +88,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/Link-Shortner-App",
         webUrl:"",
         skills: "ReactJS, ExpressJS, MongoDB, Material UI",
-        img:"../../../utils/images/link.svg"
+        img:linkImg
     },
  
     {
@@ -86,7 +97,7 @@ export const projects = [
         githubUrl:"https://github.com/ParvathySree/TicTacToe-React",
         webUrl:"https://parvathysree.github.io/TicTacToe-React/",
         skills: "ReactJS",
-        img:"../../../utils/images/tictactoe.svg"
+        img:ticTacToeImg
     },
  
 
@@ -95,27 +106,27 @@ export const projects = [
 export const socials = [
     {
         id:1,
-        icon:"../../utils/images/github.png",
+        icon:githubIcon,
         link:"https://github.com/ParvathySree"
     },
     {
         id:2,
-        icon:"../../utils/images/linkedin.png",
+        icon:linkedinIcon,
         link:"https://www.linkedin.com/in/sreeparvathypl/"
     },
     {
         id:1,
-        icon:"../../utils/images/instagram.png",
+        icon:instaIcon,
         link:"https://www.instagram.com/___parvathy/"
     },
     {
         id:1,
-        icon:"../../utils/images/medium.png",
+        icon:mediumIcon,
         link:"https://medium.com/@plsreeparvathy"
     },
     {
         id:1,
-        icon:"../../utils/images/email.png",
+        icon:emailIcon,
         link:"mailto:plsreeparvathy@gmail.com"
     },
 ]
