@@ -2,7 +2,7 @@ import notesImg from '../images/notes.svg'
 import weatherImg from '../images/weather.svg';
 import deliveryImg from '../images/delivery.svg';
 import linkImg from '../images/link.svg';
-import ticTacToeImg from '../images/tictactoe.svg';
+import portfolioImg from '../images/portfolio.svg';
 import githubIcon from '../images/github.png'
 import linkedinIcon from '../images/linkedin.png'
 import instaIcon from '../images/instagram.png'
@@ -65,6 +65,14 @@ export const projects = [
         webUrl:"https://notes-app-qjc5.vercel.app/",
         skills: "ReactJS, ExpressJS, PostgreSQL, MaterialUI",
         img: notesImg
+    },
+    {
+        id :3,
+        name: "PORTFOLIO",
+        githubUrl:"https://github.com/ParvathySree/portfolio-app",
+        webUrl:"https://sreeparvathy-pl.vercel.app/",
+        skills: "ReactJS, Material UI",
+        img:portfolioImg
     },
     {
         id :2,
