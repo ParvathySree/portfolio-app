@@ -75,6 +75,10 @@
     z-index: 1;
     text-align: center;
   }
+
+  .project-skills-con span{
+    margin: 10px;
+  }
   
   .project-card-container:hover .project-skills-con {
     opacity: 1;

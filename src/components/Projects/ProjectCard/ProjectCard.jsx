@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
         <Box className='project-img-con'>
           <img src={img} alt="Project" />
         </Box>
-        <Box className='project-skills-con'>{skills}</Box>
+        <Box className='project-skills-con'><span>{skills}</span></Box>
         <Box className="button-con">
           {webUrl && <a href={webUrl} className='button project-btn' target="_blank" rel="noopener noreferrer">DEMO</a>}
           {githubUrl && <a href={githubUrl} className='button project-btn' target="_blank" rel="noopener noreferrer">CODE</a>}
